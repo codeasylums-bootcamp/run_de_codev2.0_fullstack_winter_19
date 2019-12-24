@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="placeorder.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body style="  background-image: url(donut.gif);">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-image: linear-gradient(to right,green,yellow);">
+    <a class="navbar-brand" href="consumer.html" style="font-weight: 900;" >fOOdsal</a>
+    <button class="navbar-toggler" type="button"  data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        
+        <li class="nav-item">
+          <a class="nav-link" onclick="status()" style="color: black;">Order Status</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" style="margin-left: 1700%;color: black;">LOGOUT</a>
+        </li>
+       
+      </ul>
+    </div>
+  </nav>
+  <br><br>
+  <div>
+    <h1 style="color: rgb(6, 49, 0);font-weight: bold;font-family: cursive;margin-left: 5%;"> PLACE YOUR ORDER HERE!</h1>
+  </div>
+  <br>
+  <div class="container-fluid">
+    <div class="row">
+      
+      
+    <div id="order">
+      <script>fn()</script>
+      </div>
+    </div>
+  
+  </div>
+  <br>
+ <span style=" margin-left:12%;color: rgb(0, 66, 3);">Give Your Address :<input type="text" placeholder="Address" id="add" style="padding: 12px 20px;margin: 8px 0;box-sizing: border-box;background-color: burlywood;border-radius: 3px%;"></span><br>
+ <span style=" margin-left:12%;color: rgb(0, 90, 8)">Give Your Contact :<input type="number" placeholder="Phone No." id="num" style="padding: 12px 20px; margin: 8px 0; box-sizing: border-box;background-color: burlywood;"></span><br>
+  <input type="button" class="btn btn-success" style="margin-left: 22%;" value="Submit" onclick="confirm()" id="con">
+  <br>
+  <br>
+  <br>
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
