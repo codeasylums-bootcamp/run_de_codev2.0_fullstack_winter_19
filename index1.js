@@ -6,7 +6,7 @@ const mongoose=require('mongoose');
 const app=express();
 const port=3001;
 
-mongoose.connect("mongodb+srv://utkarshkoushik00:ut6060007@uk007-4lmzk.mongodb.net/test?retryWrites=true&w=majority",function(err){
+mongoose.connect("",function(err){
     if(err){
         console.log("error");
     }
